@@ -1,0 +1,25 @@
+{
+  "name": "ga-localstorage",
+  "description": "Google's Universal Analytics async snippet using `localStorage`.",
+  "version": "1.0.0",
+  "keywords": ["google analytics", "analytics", "universal analytics", "localStorage"],
+  "homepage": "https://davidmurdoch.com/2014/09/22/google-async-analytics-using-localstorage/",
+  "bugs": "https://github.com/davidmurdoch/ga-localstorage/issues",
+  "license": "MIT",
+  "author": "David Murdoch <david@davidmurdoch.com> https://davidmurdoch.com",
+  "contributors": [
+    "David Murdoch <david@davidmurdoch.com> https://davidmurdoch.com",
+    "Mathias Bynens <mathias@qiwi.be> (http://mathiasbynens.be/)"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "ga-localstorage.js",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmurdoch/ga-localstorage.git"
+  },
+  "engines": ["node"]
+}
