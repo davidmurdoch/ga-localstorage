@@ -1,7 +1,7 @@
 {
   "name": "ga-localstorage",
-  "description": "Google's Universal Analytics async snippet using HTML5 `localStorage` in stead of HTTP cookies.",
-  "version": "1.0.0",
+  "description": "Google's Universal Analytics async snippet using HTML5 `localStorage` instead of HTTP cookies.",
+  "version": "1.0.1",
   "keywords": ["google analytics", "analytics", "universal analytics", "localStorage"],
   "homepage": "https://davidmurdoch.com/2014/09/22/google-async-analytics-using-localstorage/",
   "bugs": "https://github.com/davidmurdoch/ga-localstorage/issues",
