@@ -7,8 +7,8 @@
  */
 
 // read in the snippet, then split it into two pieces so we can join it together later
-var gaSnippet = require( "fs" ).readFileSync( "./ga-localstorage.js", { "encoding": "utf8" } ).split( "UA-XXXXXXXX-X", 1 );
-  
+var gaSnippet = require( "fs" ).readFileSync( "./ga-localstorage.js", { "encoding": "utf8" } ).split( "UA-XXXXXXXX-X", 2 );
+
 /**
  * Creates the DEFLATE compression optimized asyncronous Google Universal Analytics snippet 
  * using the provided trackingID
@@ -22,5 +22,5 @@ var gaSnippet = require( "fs" ).readFileSync( "./ga-localstorage.js", { "encodin
  * // => +function(l,e){(ct=this[Goog...
  */
 module.exports = function getLocalStorageSnippet ( trackingId ) {
-  return gaSnippet.join( trackingId );
+	return gaSnippet.join( trackingId );
 };
