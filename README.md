@@ -7,8 +7,8 @@ Do it for the bytes.
 ## Important Caveats. Read these.
 
  * This is not an offically supported tracking method.
- * You cannot do cross-domain tracking of a user. You will not be able to track the same user on both http﻿://www.example.com and http﻿://example.com. A single user visiting both of these will result in two unique users.
- * You cannot do cross-scheme tracking of a user. You will not be able to track the same user on both http**s**://www.example.com and http﻿://www.example.com. A single user visiting both of these will result in two unique users.
+ * You cannot do cross-domain tracking of a user. You will not be able to track the same user on both http﻿://w﻿ww.e﻿xample.com and http﻿://e﻿xample.com. A single user visiting both of these will result in two unique users.
+ * You cannot do cross-scheme tracking of a user. You will not be able to track the same user on both http**s**://w﻿ww.e﻿xample.com and http﻿://w﻿ww.e﻿xample.com. A single user visiting both of these will result in two unique users.
  * You might not be able to utilize some of the advanced Google Analytics features.
 
 You should only use this script if all of the following are true:
