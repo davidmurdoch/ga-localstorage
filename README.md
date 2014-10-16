@@ -22,7 +22,7 @@ You should only use this script if all of the following are true:
 
 ## Documentation
 
-Did you read the [Important Caveats](#important-caveats-read-these-)? Make sure you do that before you read any more.
+Did you read the [Important Caveats](#user-content-important-caveats-read-these)? Make sure you do that before you read any more.
 
 ### Copy+Paste
 
@@ -31,7 +31,7 @@ Did you read the [Important Caveats](#important-caveats-read-these-)? Make sure 
 
 ### npm
 
-  0. Install node and npm (if you don't know what these are, or don't have these installed already, you should probably follow the [Copy+Paste](#copy-paste) section above).
+  0. Install node and npm (if you don't know what these are, or don't have these installed already, you should probably follow the [Copy+Paste](#user-content-copypaste) section above).
   1. Install the ga-localstorage package (optionally saving it to your package.json):
     - `npm install ga-localstorage --save`
   3. Build your Google Analytics JavaScript snippet:
@@ -41,7 +41,7 @@ Did you read the [Important Caveats](#important-caveats-read-these-)? Make sure 
 
 ## Disclaimer
 
-This isn't being merged into HTML5 Boilerplate for good reason: the Google Analytics team thought it was a risky idea. Read the [History](#history) section below for more info. 
+This isn't being merged into HTML5 Boilerplate for good reason: the Google Analytics team thought it was a risky idea. Read the [History](#user-content-history) section below for more info. 
 
 ## History ##
 
