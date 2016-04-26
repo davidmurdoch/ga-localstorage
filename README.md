@@ -4,9 +4,10 @@ A JavaScript Google Universal Analytics snippet that uses `localStorage`, when a
 
 Do it for the bytes.
 
+The [LocalStorage option is now officially supported](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#using_localstorage_to_store_the_client_id) by Google.
+
 ## Important Caveats. Read these.
 
- * This is not an offically supported tracking method.
  * You cannot do cross-domain tracking of a user. You will not be able to track the same user on both http﻿://w﻿ww.e﻿xample.com and http﻿://e﻿xample.com. A single user visiting both of these will result in two unique users.
  * You cannot do cross-scheme tracking of a user. You will not be able to track the same user on both http**s**://w﻿ww.e﻿xample.com and http﻿://w﻿ww.e﻿xample.com. A single user visiting both of these will result in two unique users.
  * You might not be able to utilize some of the advanced Google Analytics features.
@@ -39,15 +40,11 @@ Did you read the [Important Caveats](#user-content-important-caveats-read-these)
   4. Do whatever you want with it.
     - you should probably output it between a `<script>` and a `</script>` right before `</body>`.
 
-## Disclaimer
-
-This isn't being merged into HTML5 Boilerplate for good reason: the Google Analytics team thought it was a risky idea. Read the [History](#user-content-history) section below for more info. 
-
 ## History ##
 
 Read [Google Async Analytics using LocalStorage](https://davidmurdoch.com/2014/09/22/google-async-analytics-using-localstorage/) for the back story.
 
-Read [Use localStorage for Google Analytics tracking when available #1444](https://github.com/h5bp/html5-boilerplate/issues/1444) for why this isn't going to land in [HTML5 Boilerplate](http://html5boilerplate.com/).
+Read [Use localStorage for Google Analytics tracking when available #1444](https://github.com/h5bp/html5-boilerplate/issues/1444) for more fun [HTML5 Boilerplate](http://html5boilerplate.com/).
 
 ## Feedback ##
 
